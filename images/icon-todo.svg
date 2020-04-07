@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="31px" viewBox="0 0 34 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-todo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="下载页" transform="translate(-917.000000, -1346.000000)" stroke="#54BC97" stroke-width="2">
+            <g id="icon-todo" transform="translate(917.000000, 1346.000000)">
+                <polyline id="Path-14" points="1 3.63500357 5.0341623 7.8184968 11.8950851 1"></polyline>
+                <polyline id="Path-14-Copy" points="1 14.4257012 5.0341623 18.6091945 11.8950851 11.7906977"></polyline>
+                <polyline id="Path-14-Copy-2" points="1 25.2163989 5.0341623 29.3998921 11.8950851 22.5813953"></polyline>
+                <path d="M16.6595745,4.37209302 L32.4312541,4.37209302" id="Path-15"></path>
+                <path d="M16.6595745,15.1627907 L32.4312541,15.1627907" id="Path-15-Copy"></path>
+                <path d="M16.6595745,25.9534884 L32.4312541,25.9534884" id="Path-15-Copy-2"></path>
+            </g>
+        </g>
+    </g>
+</svg>

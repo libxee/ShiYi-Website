@@ -155,12 +155,12 @@ section.visual .halo {
 
 section.info {
     height: 367px;
-    background: #F28686;
+    background: #72CAFF;
     color: white;
 }
 
 section.info .hero-image {
-    top: -100px;
+    /* top: -100px; */
 }
 
 div.features {
@@ -175,6 +175,11 @@ section div.features {
 div.features .item {
     margin-right: 32px;
     text-align: center;
+}
+
+div.features .item .icon img {
+    width: 20px;
+    height: 20px;
 }
 
 div.features.center-left {
@@ -253,6 +258,14 @@ section.changelog .content:after {
     bottom: -16px;
 }
 
+.logo-info {
+    display: inline-flex;
+}
+
+.logo-info-name {
+    margin-left: 20px;
+}
+
 section.changelog .content h2 {
     font-size: 16px;
     font-weight: 500;
@@ -301,15 +314,18 @@ footer .left {
     flex: 1;
 }
 
-footer ul.know {
+footer ul.know,
+footer ul.contact {
     margin: 0;
     padding: 0;
     list-style: none;
     width: 250px;
 }
 
-footer ul.know li {
+footer ul.know li,
+footer ul.contact li {
     margin-bottom: 12px;
+    vertical-align: center;
 }
 
 footer ul.know a {
