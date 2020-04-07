@@ -1,0 +1,353 @@
+body {
+    font-family: 'PingFang SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #333;
+    font-size: 14px;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'DIN Alternate';
+    src: url('images/DINMittelschriftLT-Alternate.ttf');
+}
+
+.center-right {
+    position: absolute;
+    left: 50%;
+    margin-left: 36px;
+}
+
+.center-left {
+    position: absolute;
+    right: 50%;
+    margin-right: 36px;
+}
+
+section {
+    position: relative;
+}
+
+header {
+    position: relative;
+    height: 486px;
+}
+
+header svg {
+    position: absolute;
+}
+
+header svg.ball1 {
+    left: -203px;
+    top: -233px;
+}
+
+header svg.ball2 {
+    right: 0;
+    top: 0;
+}
+
+header svg.ball3 {
+    right: 24px;
+    top: 273px;
+}
+
+header .entrance {
+    top: -18px;
+    margin-right: 0;
+    z-index: 9;
+}
+
+header .ui {
+    margin-right: 182px;
+    z-index: 8;
+    top: 95px;
+}
+
+header .content {
+    top: 140px;
+}
+
+header h3 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #8B979F;
+    letter-spacing: 12px;
+    margin-top: 12px;
+}
+
+header .btn {
+    display: inline-block;
+    padding: 18px 20px;
+    padding-bottom: 20px;
+    border: 0;
+    line-height: 20px;
+    font-size: 18px;
+    border-radius: 100px;
+    background: #72CAFF;
+    color: white;
+    outline: 0;
+    margin-top: 100px;
+    text-decoration: none;
+}
+
+header .btn:hover {
+    opacity: 0.8;
+}
+
+header .btn:active {
+    opacity: 0.6;
+}
+
+header .btn img {
+    position: relative;
+    top: 2px;
+}
+
+section.visual {
+    height: 300px;
+    background: #F5F7F9;
+}
+
+section div.hero-title {
+    top: 100px;
+}
+
+div.hero-title .halo {
+    position: absolute;
+    left: 0;
+    top: -16px;
+    font-size: 48px;
+    font-family: 'DIN Alternate';
+    opacity: 0.2;
+    z-index: 0;
+}
+
+div.hero-title.center-left .halo {
+    left: auto;
+    right: 0;
+}
+
+div.hero-title h2 {
+    font-size: 36px;
+    font-weight: 500;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+}
+
+div.hero-title h3 {
+    margin-top: 8px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+section.visual .hero-title {
+    width: 400px;
+}
+
+section.visual .hero-title h3 {
+    color: #72CAFF;
+}
+
+section.visual .halo {
+    color: white;
+    opacity: 1;
+}
+
+section.info {
+    height: 367px;
+    background: #F28686;
+    color: white;
+}
+
+section.info .hero-image {
+    top: -100px;
+}
+
+div.features {
+    display: flex;
+    flex-direction: row;
+}
+
+section div.features {
+    top: 190px;
+}
+
+div.features .item {
+    margin-right: 32px;
+    text-align: center;
+}
+
+div.features.center-left {
+    margin-left: 32px;
+    margin-right: 0;
+}
+
+div.features .icon {
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.features .brand {
+    margin-top: 8px;
+}
+
+div.features .item.more {
+    opacity: 0.4;
+}
+
+section.schedule {
+    z-index: 10;
+    height: 367px;
+    background: white;
+}
+
+section.schedule .hero-image {
+    top: -25px;
+}
+
+section.schedule .hero-title .halo {
+    color: #EFF1F4;
+    opacity: 1;
+}
+
+section.schedule .features {
+    color: #54BC97;
+}
+
+section.schedule .features .more {
+    color: #B0B9C5;
+}
+
+section.changelog {
+    background: white;
+    z-index: 11;
+    padding: 70px 0;
+    text-align: center;
+    position: relative;
+    background: url('images/halo@2x.jpg') no-repeat;
+    background-size: 100% auto;
+}
+
+section.changelog .content {
+    width: 50%;
+    margin: 42px 0;
+    margin-left: 50%;
+    text-align: left;
+    border-left: 2px solid #EFF1F4;
+    padding-left: 24px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+section.changelog .content:after {
+    content: "";
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    position: absolute;
+    box-sizing: border-box;
+    border: 2px solid #EFF1F4;
+    left: -9px;
+    bottom: -16px;
+}
+
+section.changelog .content h2 {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+}
+
+section.changelog .content h2:before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    position: absolute;
+    background: #72CAFF;
+    left: -9px;
+    z-index: 2;
+}
+
+section.changelog .content ol {
+    padding: 12px 0;
+    padding-left: 1em;
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+section.changelog .content ol li {
+    color: #8B979F;
+    margin: 8px 0;
+}
+
+footer {
+    border-top: 1px solid #EFF1F4;
+    padding: 24px;
+    height: 175px;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+footer .left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex: 1;
+}
+
+footer ul.know {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 250px;
+}
+
+footer ul.know li {
+    margin-bottom: 12px;
+}
+
+footer ul.know a {
+    text-decoration: none;
+    color: #8B979F;
+}
+
+footer .contact {
+    width: 250px;
+}
+
+footer h2 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+footer .contact p {
+    line-height: 24px;
+    color: #8B979F;
+}
+
+.page-title {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.page-content {
+    width: 1020px;
+    margin: 0 auto;
+    padding: 40px 0;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+    text-indent: 2em;
+}
+
+.page-content h4 {
+    color: #4fb2ff;
+}
